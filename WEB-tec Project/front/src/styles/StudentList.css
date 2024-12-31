@@ -1,0 +1,89 @@
+/* Container styling */
+.student-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background: #f9f9f9; /* Light gray background */
+  }
+  
+  /* Heading styling */
+  .student-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2.5em; /* Larger heading */
+    font-weight: 600; /* Semi-bold */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Table styling */
+  .student-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure the border radius applies to the table */
+  }
+  
+  /* Table header styling */
+  .student-list-container th {
+    background: linear-gradient(135deg, #4CAF50, #45a049); /* Gradient green background */
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+  }
+  
+  /* Table cell styling */
+  .student-list-container td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+  
+  /* Table row styling */
+  .student-list-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for rows */
+  .student-list-container tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Loading and error message styling */
+  .student-list-container p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Loading spinner */
+  .loading::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    border-top: 3px solid transparent;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #d9534f; /* Bootstrap danger color */
+    font-weight: bold; /* Bold error text */
+  }
+  

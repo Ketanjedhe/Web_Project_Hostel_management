@@ -1,0 +1,47 @@
+/* Footer Styles */
+.footer {
+    width: 100%; /* Full-width footer */
+    background-color: #333; /* Dark background */
+    color: #ffffff; /* White text */
+    position: relative; /* Ensure footer is positioned correctly */
+    bottom: 0; /* Stick to the bottom of the page */
+    padding: 10px 0; /* Padding around the content */
+    overflow: hidden; /* Hide the overflow */
+}
+
+.marquee {
+    display: block;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    box-sizing: border-box;
+}
+
+.marquee p {
+    display: inline-block;
+    padding-left: 100%; /* Start outside the visible area */
+    animation: marquee 15s linear infinite; /* Marquee animation */
+    font-size: 1em; /* Set font size */
+    margin: 0; /* Remove default margin */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    100% {
+        transform: translateX(-100%); /* End position */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .marquee p {
+        font-size: 0.9em; /* Slightly smaller text on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .marquee p {
+        font-size: 0.8em; /* Even smaller text on very small screens */
+    }
+}

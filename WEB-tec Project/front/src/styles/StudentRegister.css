@@ -1,0 +1,107 @@
+/* StudentRegister.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fc; /* Light, subtle background for a clean look */
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Added padding for smaller screens */
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for a more elevated effect */
+  padding: 40px;
+  width: 100%;
+  max-width: 400px; /* Match the width with the StudentLogin form */
+  text-align: center;
+}
+
+.form-container h2 {
+  color: #0056b3; /* Stronger blue color for the heading */
+  margin-bottom: 25px;
+  font-size: 26px; /* Slightly larger heading */
+  font-weight: 700;
+}
+
+.form-container p {
+  margin-bottom: 25px;
+  font-size: 15px; /* Slightly larger font size for better readability */
+  color: #666;
+}
+
+.form-container a {
+  color: #007bff; /* Brighter blue for links */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.form-container a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 14px;
+  border: 1px solid #ddd; /* Lighter border for a cleaner look */
+  border-radius: 6px; /* Slightly more rounded corners */
+  font-size: 16px;
+  width: 100%; /* Full width input boxes */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #bbb; /* Slightly lighter placeholder color */
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #007bff; /* Brighter blue border on focus */
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Softer shadow on focus */
+}
+
+form textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.register-button {
+  background-color: #007bff; /* Brighter blue for the button */
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Full width button */
+  font-weight: 600;
+}
+
+.register-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 86, 179, 0.2); /* Add shadow on hover */
+}

@@ -1,0 +1,109 @@
+/* UpdateHostel.css */
+.update-hostel-container {
+  padding: 20px;
+}
+
+.hostel-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hostel-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.update-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button, .back-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn {
+  background-color: #6c757d;
+}
+
+.submit-button:hover, .back-btn:hover {
+  background-color: #218838;
+}
+
+.message {
+  margin-top: 10px;
+  color: green;
+}
+
+
+.update-hostel-container {
+  padding: 20px;
+}
+
+.hostel-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hostel-item {
+  margin-bottom: 10px;
+}
+
+.update-btn {
+  margin-left: 10px;
+}
+
+.hostel-update-form {
+  margin-top: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fieldset legend {
+  font-weight: bold;
+}
+
+.fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* #updatehostel {
+  padding-top:"30px";
+} */

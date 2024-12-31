@@ -1,0 +1,117 @@
+/* Global Reset */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif; /* Modern and clean font */
+  }
+  
+  .shc-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Soft gray for clean aesthetics */
+    color: #333; /* Neutral dark text color */
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #007bff, #6c63ff); /* Blue-to-purple gradient */
+    color: #fff;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .option {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .option:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .option-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-align: center;
+  }
+  
+  .option img {
+    width: 100%;
+    height: 200px; /* Fixed height for uniform display */
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    border-bottom: 1px solid #ddd; /* Adds a clean separator */
+}
+
+.option img {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Sets a consistent width-to-height ratio */
+    object-fit: cover;
+}
+
+  
+  .option h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    color: #007bff; /* Blue for headings */
+  }
+  
+  .option p {
+    font-size: 16px;
+    color: #666;
+    margin: 0 15px 20px;
+    line-height: 1.4;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .option {
+      width: 90%;
+    }
+  }
+  

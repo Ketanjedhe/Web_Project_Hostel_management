@@ -1,0 +1,218 @@
+/* Main Container */
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #f7f9fc;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* Changed to white for consistency */
+    color: #2d3436;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #2d3436; /* Consistent header color */
+}
+
+.logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    display: flex;
+    flex: 1;
+    margin-top: 65px; /* Adjusted to account for the fixed navbar height */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ffffff; /* Changed to white for consistency */
+    width: 250px;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 80px; /* Adjusted to be below the navbar */
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .profile-box {
+    background-color: #ffffff; /* Consistent background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.sidebar .profile-box .owner-name {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: #2d3436; /* Consistent header color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li button {
+    background-color: #00b894; /* Changed to match student dashboard */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar ul li button:hover {
+    background-color: #55efc4; /* Hover color match */
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 270px; /* Adjust to account for sidebar width (250px) + gap (20px) */
+    background-color: #f7f9fc; /* Consistent background color */
+    box-sizing: border-box;
+}
+
+/* Forms */
+.form-container,
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #2d3436; /* Consistent header color */
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form input[type="number"]::-webkit-inner-spin-button,
+.form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form button {
+    background-color: #00b894; /* Match button color with sidebar buttons */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.form button:hover {
+    background-color: #55efc4; /* Hover color match */
+}
+
+/* Content Sections */
+.view-hostels,
+.manage-users,
+.settings,
+.generate-reports,
+.view-feedback {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.view-hostels p,
+.manage-users p,
+.settings p,
+.generate-reports p,
+.view-feedback p {
+    color: #555;
+}

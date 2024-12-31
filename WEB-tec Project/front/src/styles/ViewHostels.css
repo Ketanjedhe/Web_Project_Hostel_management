@@ -1,0 +1,132 @@
+/* ViewHostels.css */
+.view-hostels-container {
+  margin: 20px;
+}
+
+.hostel-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hostel-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.view-details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-details-btn:hover {
+  background-color: #0056b3;
+}
+
+.hostel-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.hostel-details h2 {
+  margin-bottom: 10px;
+}
+
+.hostel-details p {
+  margin: 5px 0;
+}
+
+.back-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.back-btn:hover {
+  background-color: #5a6268;
+}
+
+.view-hostels-container {
+  padding: 20px;
+}
+
+.hostel-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hostel-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.view-details-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-details-btn:hover {
+  background-color: #0056b3;
+}
+
+.hostel-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+.hostel-details h2 {
+  margin-bottom: 10px;
+}
+
+.hostel-details p {
+  margin: 5px 0;
+}
+
+.back-btn {
+  padding: 5px 10px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back-btn:hover {
+  background-color: #5a6268;
+}
+
+.hostel-image {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  object-fit: cover; /* Ensures the image covers the dimensions while maintaining aspect ratio */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  display: block;
+  margin: 0 auto 10px;
+}

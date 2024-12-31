@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f7fc; /* Light background */
+}
+
+.login-form {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.login-form h1 {
+    color: #611313; /* Dark red color for the heading */
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.login-form input {
+    padding: 14px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form input::placeholder {
+    color: #aaa;
+}
+
+.login-form input:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+.login-button {
+    background-color: #0056b3; /* Blue color for the button */
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    font-weight: 600;
+}
+
+.login-button:hover {
+    background-color: #003d79; /* Darker blue color for hover */
+    transform: scale(1.02);
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.link-button {
+    background: none;
+    border: none;
+    color: #0056b3; /* Blue color for the links */
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.link-button:hover {
+    color: #003d79; /* Darker blue color for hover */
+    text-decoration: none;
+}
+.back-button {
+    background-color: #ccc; /* Grey color for the button */
+    color: #333; /* Darker text color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    font-weight: 600;
+  }
+  
+  .back-button:hover {
+    background-color: #bbb; /* Slightly darker grey on hover */
+    transform: scale(1.02);
+  }
+  

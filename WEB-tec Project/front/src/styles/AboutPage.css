@@ -1,0 +1,80 @@
+/* AboutPage.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .about-section {
+    background: #ffffff;
+    padding: 50px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-section h1 {
+    color: #2c3e50;
+    font-size: 42px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 15px;
+  }
+  
+  .about-section h2 {
+    color: #2980b9;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .about-section p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 30px;
+      margin: 15px;
+    }
+  
+    .about-section h1 {
+      font-size: 32px;
+    }
+  
+    .about-section h2 {
+      font-size: 24px;
+    }
+  
+    .about-section p {
+      font-size: 16px;
+    }
+  }
+  

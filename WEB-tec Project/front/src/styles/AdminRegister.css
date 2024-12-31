@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f7fc; /* Light background */
+  }
+  
+  .right-section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px; /* Adjust width as needed */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .right-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    color: #611313; /* Dark red color for the heading */
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .form-container p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .form-container a {
+    color: #0056b3; /* Blue color for the link */
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .form-container a:hover {
+    color: #003d79; /* Darker blue for hover */
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    padding: 14px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-container input::placeholder,
+  .form-container textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .form-container input:focus,
+  .form-container textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+  }
+  
+  .register-button {
+    background-color: #0056b3; /* Blue color for the button */
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    font-weight: 600;
+  }
+  
+  .register-button:hover {
+    background-color: #003d79; /* Darker blue for hover */
+    transform: scale(1.02);
+  }
+  
